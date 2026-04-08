@@ -1,0 +1,129 @@
+2026-03-30 11:34:18,977 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:36:25,635 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:36:30,411 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:37:42,971 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:38:25,247 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:42:25,183 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:44:09,562 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:45:23,209 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:52:33,951 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:54:23,509 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:54:29,736 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 11:54:29,736 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.14, 'latitude': 30.31}
+2026-03-30 11:54:31,801 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 11:54:31,801 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 11:55:16,159 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:55:19,711 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 11:55:19,712 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.14, 'latitude': 30.31}
+2026-03-30 11:55:21,785 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 11:55:21,786 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 11:57:50,048 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:57:53,295 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 11:57:53,295 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.14, 'latitude': 30.31}
+2026-03-30 11:57:55,343 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 11:57:55,344 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 11:58:45,512 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:58:49,243 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 11:58:49,243 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.14, 'latitude': 30.31}
+2026-03-30 11:58:51,306 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 11:58:51,307 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 11:59:24,909 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:59:28,019 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 11:59:28,019 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.14, 'latitude': 30.31}
+2026-03-30 11:59:30,058 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 11:59:30,059 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:03:54,324 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:03:58,348 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:03:58,348 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.14, 'latitude': 30.31}
+2026-03-30 12:04:00,383 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:04:00,385 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:08:46,349 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:08:54,478 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:08:54,478 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.14, 'latitude': 30.31}
+2026-03-30 12:08:56,524 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:08:56,525 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:10:35,135 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:10:45,495 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:10:45,495 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.14, 'latitude': 30.31}
+2026-03-30 12:10:45,697 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:10:45,698 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:12:35,795 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:12:40,347 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:12:40,348 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.14, 'latitude': 30.31}
+2026-03-30 12:12:40,466 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:12:40,467 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:13:48,141 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:13:51,966 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:13:51,966 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.151954, 'latitude': 30.32497}
+2026-03-30 12:13:51,971 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:13:51,972 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:15:39,184 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:15:42,486 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:15:42,486 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.151954, 'latitude': 30.32497}
+2026-03-30 12:15:42,491 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:15:42,492 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:17:20,869 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:17:28,022 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:17:28,022 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.151954, 'latitude': 30.32497}
+2026-03-30 12:17:28,030 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:17:28,031 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:19:55,056 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:20:10,778 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:20:13,775 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:20:13,775 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.151954, 'latitude': 30.32497}
+2026-03-30 12:20:23,782 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:20:23,783 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:21:57,672 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:22:02,217 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:22:02,217 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.151954, 'latitude': 30.32497}
+2026-03-30 12:22:12,252 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:22:12,254 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:22:49,964 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:22:53,521 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:22:53,522 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.151954, 'latitude': 30.32497}
+2026-03-30 12:23:03,537 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:23:03,538 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:23:44,401 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:23:50,139 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:23:50,140 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.151954, 'latitude': 30.32497}
+2026-03-30 12:23:50,494 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:23:50,495 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:27:33,082 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:30:11,146 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:30:17,894 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:30:17,895 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.151954, 'latitude': 30.32497}
+2026-03-30 12:30:17,912 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:30:17,913 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 12:33:26,626 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 12:33:31,837 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 12:33:31,837 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.151954, 'latitude': 30.32497}
+2026-03-30 12:33:31,855 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 12:33:31,856 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 21:40:23,208 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 21:40:25,907 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 21:40:25,908 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.151954, 'latitude': 30.32497}
+2026-03-30 21:40:26,211 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 21:40:26,213 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 21:43:44,321 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 21:43:47,087 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 21:43:47,088 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.151954, 'latitude': 30.32497}
+2026-03-30 21:43:47,123 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 21:43:47,124 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 21:44:25,695 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 21:47:38,028 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 21:48:53,981 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 21:48:59,064 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 21:48:59,064 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.1466, 'latitude': 30.312, 'radius': 5000, 'unit': 'km', 'type_id': 1}
+2026-03-30 21:48:59,080 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 21:48:59,081 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 21:53:30,807 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 21:53:54,874 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 21:53:59,419 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 21:53:59,420 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 114.05, 'latitude': 22.54, 'radius': 5, 'unit': 'km', 'type_id': 1}
+2026-03-30 21:53:59,563 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 21:53:59,565 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 21:54:46,791 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 21:54:52,083 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-30 21:54:52,084 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 120.1466, 'latitude': 30.312}
+2026-03-30 21:54:52,295 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-30 21:54:52,296 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。

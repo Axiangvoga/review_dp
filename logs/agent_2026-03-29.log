@@ -1,0 +1,812 @@
+2026-03-29 09:54:23,854 - agent - INFO - vector_store.py:75 - 成功加载数据库F:\heima\AIandLLM\Agent项目\data\扫地机器人100问.pdf内容
+2026-03-29 09:54:23,862 - agent - ERROR - vector_store.py:78 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫地机器人100问2.txt加载失败：Error loading F:\heima\AIandLLM\Agent项目\data\扫地机器人100问2.txt
+Traceback (most recent call last):
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+           ^^^^^^^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xab in position 4: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 65, in load_document
+    documents = get_file_document(path)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 52, in get_file_document
+    return text_load(read_path)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\heima\AIandLLM\Agent项目\utils\file_handler.py", line 46, in text_load
+    return TextLoader(filepath).load()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading F:\heima\AIandLLM\Agent项目\data\扫地机器人100问2.txt
+2026-03-29 09:54:23,908 - agent - ERROR - vector_store.py:78 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫拖一体机器人100问.txt加载失败：Error loading F:\heima\AIandLLM\Agent项目\data\扫拖一体机器人100问.txt
+Traceback (most recent call last):
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+           ^^^^^^^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xab in position 4: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 65, in load_document
+    documents = get_file_document(path)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 52, in get_file_document
+    return text_load(read_path)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\heima\AIandLLM\Agent项目\utils\file_handler.py", line 46, in text_load
+    return TextLoader(filepath).load()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading F:\heima\AIandLLM\Agent项目\data\扫拖一体机器人100问.txt
+2026-03-29 09:54:23,914 - agent - ERROR - vector_store.py:78 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\故障排除.txt加载失败：Error loading F:\heima\AIandLLM\Agent项目\data\故障排除.txt
+Traceback (most recent call last):
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+           ^^^^^^^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xab in position 2: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 65, in load_document
+    documents = get_file_document(path)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 52, in get_file_document
+    return text_load(read_path)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\heima\AIandLLM\Agent项目\utils\file_handler.py", line 46, in text_load
+    return TextLoader(filepath).load()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading F:\heima\AIandLLM\Agent项目\data\故障排除.txt
+2026-03-29 09:54:23,921 - agent - ERROR - vector_store.py:78 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\维护保养.txt加载失败：Error loading F:\heima\AIandLLM\Agent项目\data\维护保养.txt
+Traceback (most recent call last):
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+           ^^^^^^^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xab in position 4: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 65, in load_document
+    documents = get_file_document(path)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 52, in get_file_document
+    return text_load(read_path)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\heima\AIandLLM\Agent项目\utils\file_handler.py", line 46, in text_load
+    return TextLoader(filepath).load()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading F:\heima\AIandLLM\Agent项目\data\维护保养.txt
+2026-03-29 09:54:23,930 - agent - ERROR - vector_store.py:78 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\选购指南.txt加载失败：Error loading F:\heima\AIandLLM\Agent项目\data\选购指南.txt
+Traceback (most recent call last):
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+           ^^^^^^^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xab in position 2: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 65, in load_document
+    documents = get_file_document(path)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 52, in get_file_document
+    return text_load(read_path)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\heima\AIandLLM\Agent项目\utils\file_handler.py", line 46, in text_load
+    return TextLoader(filepath).load()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading F:\heima\AIandLLM\Agent项目\data\选购指南.txt
+2026-03-29 09:56:23,295 - agent - INFO - vector_store.py:75 - 成功加载数据库F:\heima\AIandLLM\Agent项目\data\扫地机器人100问.pdf内容
+2026-03-29 09:58:01,033 - agent - INFO - vector_store.py:75 - 成功加载数据库F:\heima\AIandLLM\Agent项目\data\扫地机器人100问.pdf内容
+2026-03-29 10:00:20,687 - agent - INFO - vector_store.py:75 - 成功加载数据库F:\heima\AIandLLM\Agent项目\data\扫地机器人100问.pdf内容
+2026-03-29 10:00:31,459 - agent - INFO - vector_store.py:75 - 成功加载数据库F:\heima\AIandLLM\Agent项目\data\扫地机器人100问2.txt内容
+2026-03-29 10:00:36,468 - agent - ERROR - vector_store.py:78 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫拖一体机器人100问.txt加载失败：('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+Traceback (most recent call last):
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 775, in urlopen
+    self._prepare_proxy(conn)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 1044, in _prepare_proxy
+    conn.connect()
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 775, in urlopen
+    self._prepare_proxy(conn)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 1044, in _prepare_proxy
+    conn.connect()
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 73, in load_document
+    self.vector_store.add_documents(split_document)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_core\vectorstores\base.py", line 258, in add_documents
+    return self.add_texts(texts, metadatas, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\chroma.py", line 277, in add_texts
+    embeddings = self._embedding_function.embed_documents(texts)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 155, in embed_documents
+    embeddings = embed_with_retry(
+                 ^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 83, in embed_with_retry
+    return _embed_with_retry(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 66, in _embed_with_retry
+    resp = embeddings.client.call(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\embeddings\text_embedding.py", line 52, in call
+    return super().call(
+           ^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\client\base_api.py", line 515, in call
+    return request.call()
+           ^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\api_entities\http_request.py", line 143, in call
+    output = next(response)
+             ^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\api_entities\http_request.py", line 501, in _handle_request
+    raise e
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\api_entities\http_request.py", line 475, in _handle_request
+    response = session.post(
+               ^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\adapters.py", line 659, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2026-03-29 10:00:46,298 - agent - ERROR - vector_store.py:78 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\故障排除.txt加载失败：('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+Traceback (most recent call last):
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 775, in urlopen
+    self._prepare_proxy(conn)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 1044, in _prepare_proxy
+    conn.connect()
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 775, in urlopen
+    self._prepare_proxy(conn)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 1044, in _prepare_proxy
+    conn.connect()
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 73, in load_document
+    self.vector_store.add_documents(split_document)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_core\vectorstores\base.py", line 258, in add_documents
+    return self.add_texts(texts, metadatas, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\chroma.py", line 277, in add_texts
+    embeddings = self._embedding_function.embed_documents(texts)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 155, in embed_documents
+    embeddings = embed_with_retry(
+                 ^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 83, in embed_with_retry
+    return _embed_with_retry(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 66, in _embed_with_retry
+    resp = embeddings.client.call(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\embeddings\text_embedding.py", line 52, in call
+    return super().call(
+           ^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\client\base_api.py", line 515, in call
+    return request.call()
+           ^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\api_entities\http_request.py", line 143, in call
+    output = next(response)
+             ^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\api_entities\http_request.py", line 501, in _handle_request
+    raise e
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\api_entities\http_request.py", line 475, in _handle_request
+    response = session.post(
+               ^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\adapters.py", line 659, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2026-03-29 10:01:57,455 - agent - INFO - vector_store.py:75 - 成功加载数据库F:\heima\AIandLLM\Agent项目\data\扫地机器人100问.pdf内容
+2026-03-29 10:02:02,788 - agent - INFO - vector_store.py:75 - 成功加载数据库F:\heima\AIandLLM\Agent项目\data\扫地机器人100问2.txt内容
+2026-03-29 10:05:33,276 - agent - INFO - vector_store.py:80 - 成功加载数据库F:\heima\AIandLLM\Agent项目\data\扫地机器人100问.pdf内容
+2026-03-29 10:05:39,068 - agent - INFO - vector_store.py:80 - 成功加载数据库F:\heima\AIandLLM\Agent项目\data\扫地机器人100问2.txt内容
+2026-03-29 10:23:42,356 - agent - INFO - vector_store.py:76 - 成功加载数据库F:\heima\AIandLLM\Agent项目\data\扫地机器人100问.pdf内容
+2026-03-29 10:23:47,351 - agent - INFO - vector_store.py:76 - 成功加载数据库F:\heima\AIandLLM\Agent项目\data\扫地机器人100问2.txt内容
+2026-03-29 10:44:10,189 - agent - ERROR - vector_store.py:98 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫地机器人100问.pdf加载失败：Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 92, in load_document
+    self.vector_store.save_local(self.faiss_path)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1160, in save_local
+    faiss.write_index(self.index, str(path / f"{index_name}.faiss"))
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\faiss\swigfaiss_avx2.py", line 12907, in write_index
+    return _swigfaiss_avx2.write_index(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+2026-03-29 10:44:22,945 - agent - ERROR - vector_store.py:98 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫地机器人100问2.txt加载失败：Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 92, in load_document
+    self.vector_store.save_local(self.faiss_path)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1160, in save_local
+    faiss.write_index(self.index, str(path / f"{index_name}.faiss"))
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\faiss\swigfaiss_avx2.py", line 12907, in write_index
+    return _swigfaiss_avx2.write_index(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+2026-03-29 10:44:38,134 - agent - ERROR - vector_store.py:98 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫拖一体机器人100问.txt加载失败：Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 92, in load_document
+    self.vector_store.save_local(self.faiss_path)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1160, in save_local
+    faiss.write_index(self.index, str(path / f"{index_name}.faiss"))
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\faiss\swigfaiss_avx2.py", line 12907, in write_index
+    return _swigfaiss_avx2.write_index(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+2026-03-29 10:44:59,347 - agent - ERROR - vector_store.py:100 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫地机器人100问.pdf加载失败：Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 94, in load_document
+    self.vector_store.save_local(self.faiss_path)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1160, in save_local
+    faiss.write_index(self.index, str(path / f"{index_name}.faiss"))
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\faiss\swigfaiss_avx2.py", line 12907, in write_index
+    return _swigfaiss_avx2.write_index(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+2026-03-29 10:45:11,440 - agent - ERROR - vector_store.py:100 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫地机器人100问2.txt加载失败：Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 94, in load_document
+    self.vector_store.save_local(self.faiss_path)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1160, in save_local
+    faiss.write_index(self.index, str(path / f"{index_name}.faiss"))
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\faiss\swigfaiss_avx2.py", line 12907, in write_index
+    return _swigfaiss_avx2.write_index(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+2026-03-29 10:45:30,885 - agent - ERROR - vector_store.py:100 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫地机器人100问.pdf加载失败：Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 94, in load_document
+    self.vector_store.save_local(self.faiss_path)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1160, in save_local
+    faiss.write_index(self.index, str(path / f"{index_name}.faiss"))
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\faiss\swigfaiss_avx2.py", line 12907, in write_index
+    return _swigfaiss_avx2.write_index(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+2026-03-29 10:45:55,776 - agent - ERROR - vector_store.py:100 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫地机器人100问.pdf加载失败：Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 94, in load_document
+    self.vector_store.save_local(self.faiss_path)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1160, in save_local
+    faiss.write_index(self.index, str(path / f"{index_name}.faiss"))
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\faiss\swigfaiss_avx2.py", line 12907, in write_index
+    return _swigfaiss_avx2.write_index(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+2026-03-29 10:46:14,288 - agent - ERROR - vector_store.py:102 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫地机器人100问.pdf加载失败：Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 96, in load_document
+    self.vector_store.save_local(self.faiss_path)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1160, in save_local
+    faiss.write_index(self.index, str(path / f"{index_name}.faiss"))
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\faiss\swigfaiss_avx2.py", line 12907, in write_index
+    return _swigfaiss_avx2.write_index(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+2026-03-29 10:46:24,402 - agent - ERROR - vector_store.py:102 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫地机器人100问2.txt加载失败：Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 96, in load_document
+    self.vector_store.save_local(self.faiss_path)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1160, in save_local
+    faiss.write_index(self.index, str(path / f"{index_name}.faiss"))
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\faiss\swigfaiss_avx2.py", line 12907, in write_index
+    return _swigfaiss_avx2.write_index(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+2026-03-29 10:46:41,771 - agent - ERROR - vector_store.py:102 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\扫拖一体机器人100问.txt加载失败：Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 96, in load_document
+    self.vector_store.save_local(self.faiss_path)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1160, in save_local
+    faiss.write_index(self.index, str(path / f"{index_name}.faiss"))
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\faiss\swigfaiss_avx2.py", line 12907, in write_index
+    return _swigfaiss_avx2.write_index(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+2026-03-29 10:46:57,019 - agent - ERROR - vector_store.py:102 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\故障排除.txt加载失败：('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+Traceback (most recent call last):
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 775, in urlopen
+    self._prepare_proxy(conn)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 1044, in _prepare_proxy
+    conn.connect()
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 775, in urlopen
+    self._prepare_proxy(conn)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connectionpool.py", line 1044, in _prepare_proxy
+    conn.connect()
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "E:\EXE\Anaconda\Anaconda\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 93, in load_document
+    self.vector_store.add_documents(split_document)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_core\vectorstores\base.py", line 258, in add_documents
+    return self.add_texts(texts, metadatas, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 340, in add_texts
+    embeddings = self._embed_documents(texts)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 248, in _embed_documents
+    return self.embedding_function.embed_documents(texts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 155, in embed_documents
+    embeddings = embed_with_retry(
+                 ^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 83, in embed_with_retry
+    return _embed_with_retry(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 66, in _embed_with_retry
+    resp = embeddings.client.call(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\embeddings\text_embedding.py", line 52, in call
+    return super().call(
+           ^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\client\base_api.py", line 515, in call
+    return request.call()
+           ^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\api_entities\http_request.py", line 143, in call
+    output = next(response)
+             ^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\api_entities\http_request.py", line 501, in _handle_request
+    raise e
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\dashscope\api_entities\http_request.py", line 475, in _handle_request
+    response = session.post(
+               ^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\requests\adapters.py", line 659, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2026-03-29 10:47:14,131 - agent - ERROR - vector_store.py:102 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\维护保养.txt加载失败：Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 96, in load_document
+    self.vector_store.save_local(self.faiss_path)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1160, in save_local
+    faiss.write_index(self.index, str(path / f"{index_name}.faiss"))
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\faiss\swigfaiss_avx2.py", line 12907, in write_index
+    return _swigfaiss_avx2.write_index(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+2026-03-29 10:47:26,715 - agent - ERROR - vector_store.py:102 - [加载知识库]F:\heima\AIandLLM\Agent项目\data\选购指南.txt加载失败：Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+Traceback (most recent call last):
+  File "F:\heima\AIandLLM\Agent项目\rag\vector_store.py", line 96, in load_document
+    self.vector_store.save_local(self.faiss_path)
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1160, in save_local
+    faiss.write_index(self.index, str(path / f"{index_name}.faiss"))
+  File "E:\EXE\Anaconda\Anaconda\Lib\site-packages\faiss\swigfaiss_avx2.py", line 12907, in write_index
+    return _swigfaiss_avx2.write_index(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open F:\heima\AIandLLM\Agent项目\chroma_db\index.faiss for writing: No such file or directory
+2026-03-29 10:49:10,391 - agent - INFO - vector_store.py:99 - 成功加载数据库F:\heima\AIandLLM\Agent\data\扫地机器人100问.pdf内容
+2026-03-29 10:49:26,671 - agent - INFO - vector_store.py:99 - 成功加载数据库F:\heima\AIandLLM\Agent\data\扫地机器人100问2.txt内容
+2026-03-29 10:49:41,331 - agent - INFO - vector_store.py:99 - 成功加载数据库F:\heima\AIandLLM\Agent\data\扫拖一体机器人100问.txt内容
+2026-03-29 10:50:10,010 - agent - INFO - vector_store.py:99 - 成功加载数据库F:\heima\AIandLLM\Agent\data\故障排除.txt内容
+2026-03-29 10:50:25,532 - agent - INFO - vector_store.py:99 - 成功加载数据库F:\heima\AIandLLM\Agent\data\维护保养.txt内容
+2026-03-29 10:50:41,310 - agent - INFO - vector_store.py:99 - 成功加载数据库F:\heima\AIandLLM\Agent\data\选购指南.txt内容
+2026-03-29 13:49:03,959 - agent - ERROR - prompt_loader.py:16 - [load_system_prompts]解析系统提示词出错，[Errno 2] No such file or directory: 'F:\\heima\\AIandLLM\\Agent\\prompts/main_prompt.txt'
+2026-03-29 13:49:23,471 - agent - ERROR - prompt_loader.py:16 - [load_system_prompts]解析系统提示词出错，[Errno 2] No such file or directory: 'F:\\heima\\AIandLLM\\Agent\\prompts/main_prompt.txt'
+2026-03-29 13:50:01,211 - agent - ERROR - prompt_loader.py:16 - [load_system_prompts]解析系统提示词出错，[Errno 2] No such file or directory: 'F:\\heima\\AIandLLM\\Agent\\prompts\\main_prompt.txt'
+2026-03-29 13:50:23,281 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有0条消息。
+2026-03-29 13:55:28,643 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 13:55:31,034 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-03-29 13:55:31,035 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 13:55:31,035 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-03-29 13:55:31,036 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 13:55:36,977 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-03-29 13:55:36,977 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 13:55:36,978 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-03-29 13:55:36,980 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-29 13:55:41,604 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-03-29 13:55:41,604 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 13:55:41,605 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-03-29 13:55:41,605 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-03-29 13:55:47,902 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-03-29 13:55:47,902 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'user_id': '1009', 'month': '2025-01'}
+2026-03-29 13:55:47,904 - agent - INFO - middleware.py:24 - [tool monitor]工具fetch_external_data调用成功
+2026-03-29 13:55:47,905 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有9条消息。
+2026-03-29 13:55:53,979 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 13:55:53,979 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '养宠家庭扫地机器人使用建议'}
+2026-03-29 13:56:07,159 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-29 13:56:07,159 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有11条消息。
+2026-03-29 14:07:17,871 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 14:30:04,271 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 14:31:08,089 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 14:31:09,661 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-29 14:31:09,661 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 14:31:09,661 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-29 14:31:09,695 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 14:31:11,304 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-29 14:31:11,306 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '合肥'}
+2026-03-29 14:31:11,308 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-29 14:31:11,855 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-29 14:31:14,849 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 14:31:14,850 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '如何在晴天、气温26摄氏度、湿度50%的环境下保养扫地机器人'}
+2026-03-29 14:31:20,141 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-29 14:31:21,585 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-03-29 14:31:51,833 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 14:31:56,685 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-03-29 14:31:56,685 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 14:31:56,686 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-03-29 14:31:56,991 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 14:32:03,875 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-03-29 14:32:03,875 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 14:32:03,875 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-03-29 14:32:03,930 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-29 14:32:08,054 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-03-29 14:32:08,054 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 14:32:08,056 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-03-29 14:32:08,146 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-03-29 14:32:11,196 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-03-29 14:32:11,197 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'user_id': '1001', 'month': '2025-12'}
+2026-03-29 14:32:11,199 - agent - INFO - middleware.py:24 - [tool monitor]工具fetch_external_data调用成功
+2026-03-29 14:32:12,608 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有9条消息。
+2026-03-29 14:32:19,507 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 14:32:19,507 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '主刷和HEPA滤网更换建议'}
+2026-03-29 14:32:29,458 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-29 14:32:30,750 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有11条消息。
+2026-03-29 14:38:30,695 - agent - INFO - vector_store.py:102 - 成功加载数据库F:\heima\AIandLLM\Agent\data\扫地机器人100问.pdf内容
+2026-03-29 14:38:36,248 - agent - INFO - vector_store.py:102 - 成功加载数据库F:\heima\AIandLLM\Agent\data\扫地机器人100问2.txt内容
+2026-03-29 14:38:41,457 - agent - INFO - vector_store.py:102 - 成功加载数据库F:\heima\AIandLLM\Agent\data\扫地机器人100问.pdf内容
+2026-03-29 14:38:43,781 - agent - INFO - vector_store.py:102 - 成功加载数据库F:\heima\AIandLLM\Agent\data\扫拖一体机器人100问.txt内容
+2026-03-29 14:38:45,707 - agent - INFO - vector_store.py:102 - 成功加载数据库F:\heima\AIandLLM\Agent\data\扫地机器人100问2.txt内容
+2026-03-29 14:38:51,691 - agent - INFO - vector_store.py:102 - 成功加载数据库F:\heima\AIandLLM\Agent\data\扫拖一体机器人100问.txt内容
+2026-03-29 14:38:54,828 - agent - INFO - vector_store.py:102 - 成功加载数据库F:\heima\AIandLLM\Agent\data\故障排除.txt内容
+2026-03-29 14:39:01,517 - agent - INFO - vector_store.py:102 - 成功加载数据库F:\heima\AIandLLM\Agent\data\故障排除.txt内容
+2026-03-29 14:39:02,237 - agent - INFO - vector_store.py:102 - 成功加载数据库F:\heima\AIandLLM\Agent\data\维护保养.txt内容
+2026-03-29 14:39:07,926 - agent - INFO - vector_store.py:102 - 成功加载数据库F:\heima\AIandLLM\Agent\data\选购指南.txt内容
+2026-03-29 14:39:08,620 - agent - INFO - vector_store.py:102 - 成功加载数据库F:\heima\AIandLLM\Agent\data\维护保养.txt内容
+2026-03-29 14:39:17,521 - agent - INFO - vector_store.py:102 - 成功加载数据库F:\heima\AIandLLM\Agent\data\选购指南.txt内容
+2026-03-29 15:32:34,973 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 16:30:54,554 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 16:31:40,438 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 16:31:49,098 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 16:32:34,682 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 16:32:47,950 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 16:33:45,569 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 16:39:08,952 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 16:39:14,081 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 16:39:14,083 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '机器人保养指南'}
+2026-03-29 16:39:23,121 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-29 16:39:23,125 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 16:40:29,151 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 16:40:32,058 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 16:40:32,059 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '机器人保养指南'}
+2026-03-29 16:40:40,850 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-29 16:40:40,852 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 16:54:12,707 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 16:54:15,752 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-29 16:54:15,753 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 16:54:15,754 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-29 16:54:15,754 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 16:54:18,950 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 16:54:18,951 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '适合合肥家庭使用的扫地机器人推荐'}
+2026-03-29 16:54:26,391 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-29 16:54:26,391 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-30 11:16:32,603 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:16:37,804 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-30 11:16:37,805 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-30 11:16:37,807 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-30 11:16:37,811 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 11:16:41,526 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-30 11:16:41,526 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '杭州 餐厅推荐'}
+2026-03-30 11:16:46,142 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-30 11:16:46,143 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-30 11:17:08,106 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:17:10,506 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-30 11:17:10,506 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-30 11:17:10,507 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-30 11:17:10,507 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 11:17:14,001 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-30 11:17:14,001 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '杭州 餐厅推荐'}
+2026-03-30 11:17:18,771 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-30 11:17:18,772 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-30 11:18:26,845 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:18:30,238 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-30 11:18:30,238 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-30 11:18:30,239 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-30 11:18:30,240 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 11:18:34,754 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-30 11:18:34,755 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '杭州 餐厅'}
+2026-03-30 11:18:41,735 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-30 11:18:41,737 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-30 11:19:05,115 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:19:11,010 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-30 11:19:11,011 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-30 11:19:11,011 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-30 11:19:11,012 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 11:19:15,620 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-30 11:19:15,620 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '杭州 餐厅'}
+2026-03-30 11:19:22,922 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2026-03-30 11:19:52,699 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:19:55,876 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-30 11:19:55,876 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-30 11:19:55,877 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-30 11:19:55,878 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 11:19:59,819 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-30 11:19:59,820 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '深圳 餐厅'}
+2026-03-30 11:20:04,997 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /api/v1/services/aigc/text-generation/generation (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+2026-03-30 11:23:36,807 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-30 11:23:39,312 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-30 11:23:39,314 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-30 11:23:39,315 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-30 11:23:39,316 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-30 11:23:45,199 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-30 11:23:45,199 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '杭州 餐厅推荐'}
+2026-03-30 11:23:49,847 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-30 11:23:49,848 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。

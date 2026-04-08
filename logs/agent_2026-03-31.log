@@ -1,0 +1,113 @@
+2026-03-31 19:53:08,501 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 19:53:10,049 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 19:53:10,049 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 19:53:10,050 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 19:53:10,050 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 19:54:29,221 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 19:54:31,235 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 19:54:31,236 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 19:54:31,237 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 19:54:31,238 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 19:56:50,097 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 19:56:53,578 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 19:56:53,578 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 19:56:53,578 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 19:56:53,579 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 19:58:37,538 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 19:58:48,761 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 19:58:50,169 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 19:58:50,170 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 19:58:50,170 - agent - ERROR - middleware.py:31 - 工具get_user_location调用失败，原因：name 'request' is not defined
+2026-03-31 19:59:13,072 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 19:59:14,776 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 19:59:14,776 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 19:59:15,046 - agent - ERROR - middleware.py:31 - 工具get_user_location调用失败，原因：Expecting value: line 1 column 1 (char 0)
+2026-03-31 19:59:26,864 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 19:59:28,092 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 19:59:28,092 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 19:59:28,326 - agent - ERROR - middleware.py:31 - 工具get_user_location调用失败，原因：'Response' object is not subscriptable
+2026-03-31 20:03:13,276 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:03:13,277 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:03:13,277 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:03:15,071 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:03:15,071 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:03:15,091 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:03:15,091 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:03:15,164 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:03:15,165 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:03:15,394 - agent - ERROR - middleware.py:31 - 工具get_user_location调用失败，原因：Expecting value: line 1 column 1 (char 0)
+2026-03-31 20:03:15,419 - agent - ERROR - middleware.py:31 - 工具get_user_location调用失败，原因：Expecting value: line 1 column 1 (char 0)
+2026-03-31 20:03:15,467 - agent - ERROR - middleware.py:31 - 工具get_user_location调用失败，原因：Expecting value: line 1 column 1 (char 0)
+2026-03-31 20:04:29,826 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:04:31,374 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:04:31,374 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:04:31,607 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 20:04:31,608 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 20:04:43,771 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:04:45,198 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:04:45,198 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:04:45,437 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 20:04:45,438 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 20:05:51,265 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:05:52,504 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:05:52,504 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:05:52,731 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 20:05:52,732 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 20:08:09,621 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:08:10,847 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:08:10,847 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:08:11,091 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 20:08:11,092 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 20:13:30,504 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:13:32,868 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:13:32,869 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:13:33,133 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 20:13:33,134 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 20:17:21,152 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:17:22,396 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:17:22,396 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:17:22,638 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 20:17:22,639 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 20:20:07,588 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:20:09,058 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:20:09,059 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:20:09,292 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 20:20:09,292 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 20:20:50,043 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:20:51,708 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:20:51,709 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:20:52,099 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 20:20:52,100 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 20:23:03,566 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:23:04,971 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:23:04,971 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:23:05,210 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 20:23:05,211 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 20:23:23,784 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:23:25,710 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:23:25,710 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:23:25,965 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 20:23:25,965 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 20:24:04,473 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 20:24:07,450 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 20:24:07,450 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 20:24:07,818 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 20:24:07,819 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 20:24:13,384 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-31 20:24:13,385 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 113.389394, 'latitude': 23.156538, 'radius': 5, 'unit': 'km', 'type_id': 2}
+2026-03-31 20:24:13,578 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-31 20:24:13,578 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-31 21:42:39,356 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 21:42:41,334 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 21:42:41,367 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 21:42:41,616 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 21:42:41,616 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 21:43:55,480 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 21:43:56,657 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 21:43:56,657 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 21:43:56,901 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 21:43:56,901 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 21:44:00,272 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_nearby_shops
+2026-03-31 21:44:00,272 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'longitude': 113.389394, 'latitude': 23.156538, 'radius': 5, 'unit': 'km', 'type_id': 2}
+2026-03-31 21:44:00,290 - agent - INFO - middleware.py:24 - [tool monitor]工具get_nearby_shops调用成功
+2026-03-31 21:44:00,291 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
